@@ -28,6 +28,7 @@ gem 'slim'
 gem 'simple_form'
 gem 'enumerize'
 gem 'rails_admin'
+gem 'rails_admin_toggleable'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
