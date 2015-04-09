@@ -26,6 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Development
 gem 'slim'
 gem 'simple_form'
+gem 'enumerize'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
