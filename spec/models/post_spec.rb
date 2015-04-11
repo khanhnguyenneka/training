@@ -10,6 +10,6 @@ describe Post do
     it { is_expected.to validate_presence_of :description }
     it { is_expected.to validate_presence_of :state }
     it { is_expected.to validate_presence_of :category_id }
-    it { is_expected.to enumerize(:state).in(:publish, :unpublish, :trash) }
+    it { is_expected.to enumerize(:state).in(:published, :unpublished, :trash) }
   end
 end

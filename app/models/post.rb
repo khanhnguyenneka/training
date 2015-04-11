@@ -8,5 +8,5 @@ class Post < ActiveRecord::Base
   validates_presence_of :state
   validates_presence_of :category_id
 
-  enumerize :state, in: [:publish, :unpublish, :trash], default: :unpublish
+  enumerize :state, in: [:published, :unpublished, :trash], default: :unpublished
 end

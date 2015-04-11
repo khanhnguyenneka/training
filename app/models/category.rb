@@ -6,5 +6,5 @@ class Category < ActiveRecord::Base
   validates_presence_of :title
   validates_presence_of :state
 
-  enumerize :state, in: [:publish, :unpublish], default: :unpublish
+  enumerize :state, in: [:published, :unpublished], default: :unpublished
 end

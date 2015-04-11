@@ -8,6 +8,6 @@ describe Category do
   describe 'Validation' do
     it { is_expected.to validate_presence_of :title }
     it { is_expected.to validate_presence_of :state }
-    it { is_expected.to enumerize(:state).in(:publish, :unpublish) }
+    it { is_expected.to enumerize(:state).in(:published, :unpublished) }
   end
 end
